@@ -11,21 +11,21 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #a17694;
-  background-image: url('./img/foto.png');
+  background-image: url('./img/eu.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  padding: 0 112px;
+  padding: 0 100px;
   position: relative;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -174,6 +174,17 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
+.about-me {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0rem 0;
+  background-color: #b89fb0;
+  text-align: center;
+  color: rgb(41, 37, 37);
+}
 
 .container {
   height: auto;
@@ -182,6 +193,7 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 3rem 0;
+  text-align: center;
 }
 
 .card-container {
@@ -200,7 +212,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: #a17694;
-  background-image: url('./img/foto.png');
+  background-image: url('./img/eu.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -208,10 +220,11 @@ a:hover {
   color: #1E1e2A;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .card-text {
-  width: 40%;
+  width: 30%;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
 }
@@ -239,7 +252,7 @@ a:hover {
 }
 
 .card-wrapper h2 {
-  font-size: 40px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin: 0;
